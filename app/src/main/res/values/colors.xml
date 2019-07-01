@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8E1FA3</color>
+    <color name="colorPrimaryDark">#8E1FA3</color>
+    <color name="colorAccent">#8E1FA3</color>
+
+    <!-- Utility Colors -->
+    <color name="dark_gray">#696969</color>
+    <color name="black_effective">#2a2a2a</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="yellow">#fff44f</color>
+
+    <color name="divider_line">#F4F4F4</color>
+
+    <!-- Welcome Slider -->
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <color name="sec_dot">#4DFFFFFF</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <!-- Login -->
+    <color name="link_color">#8C1EA5</color>
+    <color name="text_entry_color">#322D32</color>
+    <color name="text_subtext">#6F6C6F</color>
+    <color name="line_color">#8E1FA3</color>
+    <color name="bg_color_for_buttons">#F4F4F4</color>
+    <color name="text_color_day">#C1C0C1</color>
+
+
+    <!-- home -->
+    <color name="notification_color">#FC720F</color>
+    <color name="default_text_color">#FF6F6C6F</color>
+    <color name="demo_box_gray">#838c7f</color>
+    <color name="line_color_1">#F0365B</color>
+    <color name="ongoing_challange_card">#874AA7</color>
+    <color name="ongoing_challange_card1">#ED5334</color>
+    <color name="swipe_card_1">#F73856</color>
+    <color name="swipe_card_2">#FF7C27</color>
+    <color name="swipe_card_progress_sec_start">#80ffd300</color>
+    <color name="swipe_card_progress_sec_center">#80ffb600</color>
+    <color name="swipe_card_progress_sec_end">#a0ffcb00</color>
+
+
+    <color name="transparent">#00000000</color>
+    <color name="checkin_background">#F2322D32</color>
+    <color name="timer_sec">#FF862F</color>
+
+    <color name="notification_color_bg">#FF862F</color>
+
+</resources>

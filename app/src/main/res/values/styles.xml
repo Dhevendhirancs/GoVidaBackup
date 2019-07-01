@@ -1,0 +1,143 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name ="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColorPrimary">@color/text_color_day</item>
+    </style>
+
+    <!-- Splash Screen theme. -->
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="simple_button_next">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">@dimen/s18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">@color/line_color</item>
+        <item name="android:background">@drawable/rounded_cornor_reactangular_button</item>
+    </style>
+
+    <style name="simple_button_skip">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/d50dip</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">@dimen/s18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:background">@drawable/partial_rounded_cornor_half_react</item>
+    </style>
+
+    <style name="simple_button_gradient">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">@dimen/s18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">@color/line_color</item>
+        <item name="android:background">@drawable/rounded_cornor_reactangular_button</item>
+    </style>
+
+    <style name="simple_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">@dimen/s18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@drawable/login_button</item>
+    </style>
+
+    <style name="simple_button_grey">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">@dimen/s18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">@color/line_color</item>
+        <item name="android:background">@drawable/simple_button_grey</item>
+    </style>
+
+    <style name="value_enter_edittext">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/text_entry_color</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:minLines">1</item>
+        <item name="android:textSize">@dimen/s18sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="colorControlActivated">@color/line_color</item>
+        <item name="colorControlHighlight">@color/line_color</item>
+    </style>
+
+
+    <style name="NavDrawerTextStyle">
+        <item name="android:textSize">@dimen/s11sp</item>
+    </style>
+
+    <style name="general_text_view_style">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">@dimen/s14sp</item>
+        <item name="android:letterSpacing">0.03</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+
+    <style name="NumberPickerStyle">
+        <item name="android:textSize">@dimen/s18sp</item>
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+        <item name="android:colorControlNormal" tools:targetApi="lollipop">@color/colorAccent</item>
+    </style>
+
+    <!--<style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>-->
+        <!--<item name ="android:windowBackground">@color/transparent</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="android:colorForeground">#fff</item>-->
+    <!--</style>-->
+
+</resources>

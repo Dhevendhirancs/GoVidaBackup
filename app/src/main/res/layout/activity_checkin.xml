@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent" android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@color/checkin_background">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:text="@string/checkin_title"
+              android:textColor="@color/colorWhite"
+              android:textSize="@dimen/s28sp"
+              android:gravity="center_horizontal"
+              android:textStyle="bold"
+              android:paddingTop="@dimen/s30sp"
+              style="@style/general_text_view_style"
+                android:id="@+id/tv_checkin_title"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:text="@string/checkin_second_title"
+              android:textColor="@color/text_color_day"
+              android:textSize="@dimen/s20sp"
+              android:gravity="center_horizontal"
+              style="@style/general_text_view_style"
+              android:id="@+id/tv_checkin_sub_title"
+                android:paddingLeft="@dimen/d5dip"
+                android:paddingRight="@dimen/d5dip"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ProgressBar
+                android:id="@+id/pb_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="@dimen/d300dip"
+                android:layout_height="@dimen/d300dip"
+                android:secondaryProgress="120"
+                android:indeterminate="false"
+                android:layout_centerHorizontal="true"/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_centerInParent="true">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:textSize="@dimen/s50sp"
+                          android:textColor="@color/colorWhite"
+                          android:id="@+id/tv_min"
+                          android:text="@string/initial_time"
+                          style="@style/general_text_view_style"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:text="@string/colon"
+                          android:textSize="@dimen/s50sp"
+                          android:textColor="@color/colorWhite"
+                          style="@style/general_text_view_style"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:textSize="@dimen/s50sp"
+                          android:textColor="@color/colorWhite"
+                          android:text="@string/initial_time"
+                          android:id="@+id/tv_sec"
+                          style="@style/general_text_view_style"/>
+            </LinearLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="@string/session_desc"
+                      android:textSize="@dimen/s15sp"
+                      android:textColor="@color/text_color_day"
+                      android:layout_centerInParent="true"
+                      android:layout_gravity="center_horizontal"
+                      style="@style/general_text_view_style"/>
+        </LinearLayout>
+    </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+            android:paddingBottom="@dimen/d10dip">
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_checkin"
+                    style="@style/simple_button"
+                    android:text="@string/checkin"
+                    android:layout_centerHorizontal="true"
+                    android:layout_above="@+id/home_center_button"
+                android:layout_marginBottom="@dimen/d20dip"/>
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/home_center_button"
+                   android:layout_centerInParent="true"
+                   android:layout_alignParentBottom="true"
+                   android:src="@drawable/session_back_button"
+                   app:fabSize="normal"/>
+        </RelativeLayout>
+
+</LinearLayout>
+<!--<LinearLayout android:layout_width="match_parent"-->
+              <!--android:layout_height="match_parent"-->
+              <!--android:orientation="vertical">-->
+<!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/btn_checkin"-->
+        <!--style="@style/simple_button"-->
+        <!--android:layout_marginTop="@dimen/d10dip"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:text="@string/checkin"/>-->
+<!--<RelativeLayout android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:paddingBottom="@dimen/d10dip">-->
+    <!--<com.google.android.material.floatingactionbutton.FloatingActionButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/home_center_button"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:src="@drawable/session_back_button"-->
+            <!--app:fabSize="normal"/>-->
+    <!--&lt;!&ndash;<android.support.design.widget.FloatingActionButton&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/home_center_button"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;app:fabSize="normal"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_centerInParent="true"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_alignParentBottom="true"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:src="@drawable/session_back_button"/>&ndash;&gt;-->
+<!--</RelativeLayout>-->
+<!--</LinearLayout>-->

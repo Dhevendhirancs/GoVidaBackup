@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/i_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home_home" />
+
+    <item
+            android:id="@+id/i_challenges"
+            android:icon="@drawable/ic_challenges"
+            android:title="@string/menu_home_challenges" />
+    <!--must set the item title to empty-->
+    <item
+            android:id="@+id/i_empty"
+            android:title="@string/menu_check_in" />
+    <item
+            android:id="@+id/i_rewards"
+            android:icon="@drawable/ic_rewards"
+            android:title="@string/menu_home_rewards" />
+    <item
+            android:id="@+id/i_profile"
+            android:icon="@drawable/ic_myprofile"
+            android:title="@string/menu_home_profile" />
+</menu>

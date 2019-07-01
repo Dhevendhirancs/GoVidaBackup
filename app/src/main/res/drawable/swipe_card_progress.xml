@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="@dimen/d4dip"/>
+            <gradient
+                    android:startColor="@color/colorWhite"
+                    android:centerColor="@color/colorWhite"
+                    android:endColor="@color/colorWhite"
+            />
+        </shape>
+    </item>
+
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners android:radius="@dimen/d4dip" />
+                <gradient
+                        android:startColor="@color/swipe_card_progress_sec_start"
+                        android:centerColor="@color/swipe_card_progress_sec_center"
+                        android:endColor="@color/swipe_card_progress_sec_end"
+                />
+            </shape>
+        </clip>
+    </item>
+    <item
+            android:id="@android:id/progress"
+    >
+        <clip>
+            <shape>
+                <corners
+                        android:radius="4dip" />
+                <gradient
+                        android:angle="90"
+                        android:centerColor="@color/swipe_card_1"
+                        android:endColor="@color/line_color"
+                        android:startColor="@color/swipe_card_2"
+                        android:type="linear"/>
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

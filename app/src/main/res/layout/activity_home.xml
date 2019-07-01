@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorWhite"
+        tools:context=".ui_section.home_section.ActivityHome">
+
+    <include
+        layout="@layout/custom_toolbar_home"/>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
+                    android:id="@+id/home_bnve"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/d70dip"
+                    android:layout_alignParentBottom="true"
+                    android:theme="@style/NavDrawerTextStyle"
+                    android:background="@color/bg_color_for_buttons"
+                    app:itemIconTint="@color/selector_item_primary_color"
+                    app:itemTextColor="@color/selector_item_primary_color"
+                    app:menu="@menu/menu_navigation_center_fab" />
+
+            <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/home_pager_tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@id/home_bnve" />
+
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="@dimen/d90dip"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/checkin_homepage_timer"
+                            android:id="@+id/rl_checkin_timer">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:layout_centerInParent="true">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="@string/initial_time"
+                              android:textSize="@dimen/s30sp"
+                              android:textColor="@color/colorWhite"
+                    android:id="@+id/tv_min"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="@string/colon"
+                              android:textSize="@dimen/s30sp"
+                              android:textColor="@color/colorWhite"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                              android:text="@string/initial_time"
+                              android:textSize="@dimen/s30sp"
+                              android:textColor="@color/colorWhite"
+                        android:id="@+id/tv_sec"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/home_center_button"
+                    android:layout_width="@dimen/d64dip"
+                    app:fabSize="normal"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/d30dip"
+                    app:borderWidth="0dp"
+                    app:elevation="@dimen/d9dip"
+                    android:src="@drawable/round_button_color_bg"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/btn_checkout"
+                    android:layout_width="@dimen/d64dip"
+                    app:fabSize="normal"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/d30dip"
+                    android:src="@drawable/round_button_color_bg_sec"
+                    app:borderWidth="0dp"
+                    app:elevation="@dimen/d9dip" />
+        </RelativeLayout>
+
+</LinearLayout>

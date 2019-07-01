@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/colorWhite"
+              android:orientation="vertical">
+    <include
+            layout="@layout/custom_toolbar_settings"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="@dimen/d20dip">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:text="@string/notifications"
+                  android:textColor="@color/text_entry_color"
+                  android:textSize="@dimen/d20dip"
+                  android:layout_weight="20"
+                  style="@style/general_text_view_style"/>
+        <Switch android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:checked="false"
+                android:layout_weight="80"
+                android:thumbTint="@color/colorWhite"
+                android:trackTint="@color/notification_color"
+                android:paddingRight="@dimen/d15dip"
+                android:id="@+id/switch_notification"/>
+    </LinearLayout>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/d1dip"
+            android:background="@drawable/points_separator"
+            android:layout_marginLeft="@dimen/d15dip"
+            android:layout_marginRight="@dimen/d12dip"
+            android:id="@+id/tv_googlefit_separator"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="@dimen/d20dip"
+                    android:id="@+id/ll_googlefit">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:text="@string/google_fit_access"
+                  android:textColor="@color/text_entry_color"
+                  android:textSize="@dimen/d20dip"
+                  android:layout_weight="20"
+                  style="@style/general_text_view_style"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:layout_weight="80"
+                  android:textSize="@dimen/d16dip"
+                  android:textColor="@color/link_color"
+                  android:id="@+id/tv_google_fit_access"
+                  android:text="@string/turn_on"
+                  style="@style/general_text_view_style"/>
+    </LinearLayout>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/d1dip"
+            android:background="@drawable/points_separator"
+            android:layout_marginLeft="@dimen/d15dip"
+            android:layout_marginRight="@dimen/d12dip"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="@dimen/d20dip">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:text="@string/location_access"
+                  android:textColor="@color/text_entry_color"
+                  android:textSize="@dimen/d20dip"
+                  android:layout_weight="20"
+                  style="@style/general_text_view_style"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:text="@string/turn_off"
+                  android:layout_weight="80"
+                  android:textSize="@dimen/d16dip"
+                  android:textColor="@color/link_color"
+                  android:id="@+id/tv_location_access"
+                  style="@style/general_text_view_style"/>
+    </LinearLayout>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/d1dip"
+            android:background="@drawable/points_separator"
+            android:layout_marginLeft="@dimen/d15dip"
+            android:layout_marginRight="@dimen/d12dip"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="@dimen/d20dip"
+                android:id="@+id/ll_change_password">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:text="@string/change_password"
+                  android:textColor="@color/text_entry_color"
+                  android:textSize="@dimen/d20dip"
+                  android:layout_weight="20"
+                  style="@style/general_text_view_style"/>
+        <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                   android:src="@drawable/ic_bell"
+                   android:layout_weight="80"
+                   android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/d1dip"
+            android:background="@drawable/points_separator"
+            android:layout_marginLeft="@dimen/d15dip"
+            android:layout_marginRight="@dimen/d12dip"/>
+            -->
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/setting_btn_logout"
+            android:text="@string/logout"
+            style="@style/simple_button_grey"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/d20dip"/>
+
+</LinearLayout>

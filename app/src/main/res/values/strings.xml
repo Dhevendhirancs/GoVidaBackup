@@ -1,0 +1,398 @@
+<resources>
+    <string name="app_name">GoVida</string>
+
+    <!-- Error Constants -->
+    <string name="some_error">Couldnt\'t perform the desired action due to a technical Error.
+    </string>
+    <string name="not_connected_to_internet">Please check your internet</string>
+    <string name="email_error">Please enter valid Email Id/Password</string>
+    <string name="password_error">Please enter Email Id/Password</string>
+    <string name="first_name_error">Please enter valid first name</string>
+    <string name="last_name_error">Please enter valid last name</string>
+    <string name="empty_error">Both fields cannot be blank</string>
+    <string name="valid_email_error">Please enter valid Email Id</string>
+    <string name="unknown_error">An error occurred. Please try again.</string>
+
+    <!-- Welcome Slider -->
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GET STARTED</string>
+    <string name="slide_1_title">Activity</string>
+    <string name="slide_1_desc_1">Your activity data throughout the day converts into GoVida Points (GoVPs)</string>
+    <string name="slide_1_desc_2">day converts into GoVida Points (GoVPs)</string>
+    <string name="slide_2_title">Challenges</string>
+    <string name="slide_2_desc_1">Take part in GoVida Challenges and earn more GoVida Points (GoVPs)</string>
+    <string name="slide_2_desc_2">earn more GoVida Points (GoVPs)</string>
+    <string name="slide_3_title">Rewards</string>
+    <string name="slide_3_desc_1">Redeem your GoVida Points (GoVPs) in exchange for Rewards in our Reward Catalogue
+    </string>
+    <string name="slide_3_desc_2">exchange for Rewards in our</string>
+    <string name="slide_3_desc_3">Reward Catalogue</string>
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear
+        data
+    </string>
+    <string name="play_again">Play Again</string>
+
+    <!-- Terms and Conditions -->
+    <string name="title_terms">Terms of Use</string>
+    <string name="btn_accept_condition">ACCEPT &amp; CONTINUE</string>
+    <string name="demo_terms">This App allows individuals to search for, and engage with, Fitness Service Providers
+        including by connecting you with personal trainers and products, and other services described on this App.
+        GoVida fitness has prepared this App in good faith. Information on this App may be derived from third party
+        sources.  GoVida fitness believes the information on this App is accurate and up to date; however GoVida fitness
+        makes no representation or warranty as to the accuracy or currency of the information.
+        All prices quoted on the App are in Australian dollars and include GST, unless otherwise indicated. Prices
+        quoted on the App should be used as a guide only as they may change from time to time.
+        GoVida fitness may cease, interrupt or withdraw your access to the App for any reason, including for upgrades
+        and maintenance of the App.
+        This App includes services that are available via a mobile device. To the extent that you access the App through
+        a mobile device, your wireless service carrier’s standard charges, data rates and other fees may apply. In
+        addition, downloading, installing or using certain services may be prohibited or restricted by your carrier and
+        not all services may work with all carriers or devices.
+        GoVida fitness does not warrant that your access to the App will be uninterrupted or error free.
+        To the fullest extent permitted by applicable law, GoVida fitness does not accept liability for any claims or
+        losses arising directly or indirectly from:
+        A failure to provide the App, or any part thereof; corruptions to or loss of data, errors or Interruptions
+        occurring in the course of using, or as part of, the App;
+        Any suspension or discontinuance of any Service, or any part thereof; or
+        Any use of the App by other users, including any use of the App by other users in manner which contravenes this
+        document.
+    </string>
+
+    <!-- Login page -->
+    <string name="link_register">REGISTER</string>
+    <string name="title_login">Login</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="link_forget_password">Forgot Password</string>
+    <string name="hint_password">Password</string>
+    <string name="login_success">Welcome to GoVida - Here are 10 Bonus Points that we will credit to your wallet.</string>
+    <!-- Forgot Password -->
+    <string name="title_forgot_password">Forgot Password</string>
+    <string name="info_email">Enter your official email ID \nex:\'johnsmith@example.com\'</string>
+    <string name="hint_email">Official Email Id</string>
+    <string name="btn_reset">RESET PASSWORD</string>
+
+
+    <!-- Be Connected -->
+    <string name="title_be_connected">Be Connected!</string>
+    <string name="info_part1">GoVida would like to</string>
+    <string name="info_part2">By continuing you allow this app to use your information in accordance with Terms of
+        Service
+    </string>
+    <string name="terms_info_link"><![CDATA[<font color=#6F6C6F>By continuing you allow this app to use your information in accordance with </font> <font color=#322D32>Terms of Service</font>]]></string>
+    <string name="info_part3">Terms of Service</string>
+    <string name="link">Link</string>
+    <string name="continue_btn">Continue</string>
+    <string name="alert_googlefit_gps">Please allow Google Fit and GPS. By not linking  you will be unable to earn GoVida points for your activities and for “Check Ins” at Verified Exercise Venues.</string>
+    <string name="alert_googlefit">By not linking Google Fit you will be unable to earn GoVida points for your activities.</string>
+    <string name="alert_gps">Your Location Settings are set to “off“ please enable Location Settings to earn GoVPs for “Check Ins” at Verified Exercise Venues.</string>
+    <string name="gps_off_alert">Your Location Settings are set to “off“ please enable Location Settings to earn GoVPs for “Check Ins” at Verified Exercise Venues.</string>
+    <string name="googlefit_bonus_alert">Thank you for connecting Google Fit-You will now earn GoVida points automatically for your daily activity.  Here are a 10 Bonus Points to get you moving!</string>
+    <string name="gps_bonus_alert">Thank you for enabling Location Settings- this allows you to earn GoVPs for “Check Ins” at verified Exercise Venues. Here are a 10 Bonus Points to get you on your way!</string>
+
+    <!-- Link Shared -->
+    <string name="check_email">Check Your Inbox</string>
+    <string name="check_email_text">We have sent a confirmation link to \nthe email address.</string>
+    <string name="check_spam">Please click the link in email to verify account. If you don\'t receive email please check
+        your junk/spam folder.
+    </string>
+    <string name="btn_got_it">GOT IT</string>
+    <string name="do_it_later">DO IT LATER</string>
+    <string name="allow">ALLOW</string>
+    <string name="fit_info">Earn GoVida Points for your daily steps activity by linking Google Fit. By not linking
+        Google Fit you will be unable to earn GoVida points for your activities.
+    </string>
+    <string name="gps_info">GPS data is used to validate your attendance at a Verified Exercise Venue. Enable your
+        Location Settings and earn GoVPs through our "Check In" function at Verified Exercise Venues.
+    </string>
+    <string name="profile_info">View and store Camera information for profile completion</string>
+
+    <!-- Register -->
+    <string name="title_register">Register</string>
+    <string name="btn_continue">CONTINUE</string>
+    <string name="link_text">You agreed to the &#160;</string>
+    <string name="text_terms">Terms of Use.</string>
+    <string name="link_login">Login</string>
+    <string name="hint_first">First Name</string>
+    <string name="hint_last">Last Name</string>
+    <string name="hint_email_id">Official Email Id</string>
+
+    <!-- Temp string -->
+    <string name="demo_fname">Johnny</string>
+    <string name="demo_lname">Willium</string>
+    <string name="demo_email">temp.user@e-zest.in</string>
+    <string name="demo_password">ezest@123</string>
+
+
+    <!-- Home Section -->
+    <string name="menu_home_home">Home</string>
+    <string name="menu_home_challenges">Challenges</string>
+    <string name="menu_home_rewards">Rewards</string>
+    <string name="menu_home_profile">My Profile</string>
+
+    <!-- Activities -->
+    <string name="title_activity">Activity</string>
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="demo_date">TODAY, %1$s</string>
+    <string name="date_seperator">&#160;-&#160;</string>
+    <string name="steps">Steps</string>
+    <string name="distance">Distance</string>
+    <string name="floors">Floors</string>
+    <string name="check_in">Check Ins</string>
+    <string name="govps">GoVPs</string>
+    <string name="demo_2865">0</string>
+    <string name="demo_km">00.0 km</string>
+    <string name="demo_234">234</string>
+    <string name="demo_02">02</string>
+    <string name="demo_10">10</string>
+    <string name="my_govida_points">My GoVida Points</string>
+    <string name="redeemable">Redeemable</string>
+    <string name="demo_0">0</string>
+    <string name="charity_earnings">Charity Earnings</string>
+    <string name="non_redeemable">Non Redeemable</string>
+    <string name="bonus_points">Bonus Points</string>
+    <string name="activity_points">Activity Points</string>
+    <string name="challenge_points">Challenges</string>
+    <string name="govps_redeem_points">GoVPs Redeemed</string>
+    <string name="activity">Activity</string>
+    <string name="gbp">1 GOVP = 1GBP</string>
+    <string name="redeem_points">REDEEM POINTS</string>
+    <string name="demo_my_ongoing_challange">My Ongoing Challenges </string>
+    <string name="demo_my_ongoing_challenge_count">(1)</string>
+    <string name="step_challenge">24 Hour Step Challenge</string>
+    <string name="step_based">(Step based)</string>
+    <string name="complete_700_steps">Complete 700 steps in 24 hours</string>
+    <string name="demo_120">120</string>
+    <string name="participants">Participants</string>
+    <string name="demo_24hr">24hr</string>
+    <string name="duration">Duration</string>
+    <string name="demo_20">20</string>
+    <string name="demo_percentage">%1$s %</string>
+    <string name="complete">Complete</string>
+    <string name="flight_based_challenge">(Flight based challenge)</string>
+    <string name="demo_39">39</string>
+    <string name="day_14">14d</string>
+    <string name="demo_50">50</string>
+    <string name="demo_percentage_30">30%</string>
+    <string name="days_30">30 Days</string>
+    <string name="steps_10000">10,000 Steps</string>
+    <string name="govps_100">100 GoVPs</string>
+    <string name="days_14">14 Days</string>
+    <string name="flights_587">587 Flights</string>
+    <string name="govps_50">50 GoVPs</string>
+    <string name="demo_percentage_50">50%</string>
+    <string name="demo_hey_user">Hey %1$s!</string>
+    <string name="demo_percentage_40">40%</string>
+    <string name="checkin_card_title">Check-In</string>
+    <string name="challange_card_title">Challenge</string>
+    <string name="today">Today</string>
+    <string name="total_govps">Total GoVPs</string>
+    <string name="demo_point">0</string>
+    <string name="swipe_card4_title">Permissions</string>
+    <string name="swipe_card4_desc_gps">Enable the access for GPS to earn 10 bonus points</string>
+    <string name="swipe_card4_desc_googlefit">Enable the access for Google Fit to earn 10 bonus points</string>
+    <string name="swipe_card4_desc_both">Enable the access for GPS and Google Fit to earn 20 bonus points</string>
+    <string name="both_alert">Enable GPS and Google Fit permission to track your fitness activities</string>
+    <string name="gps_alert">Enable GPS permission to track your fitness activities</string>
+    <string name="google_fit_alert">Enable Google Fit permission to track your fitness activities</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Challenges -->
+    <string name="title_challenges">Challenges</string>
+    <string name="accept">ACCEPT</string>
+    <string name="my_challenges">My Challenges</string>
+    <string name="all_challenges">All Challenges</string>
+    <string name="demo_challenge_title">GoVida 24 Hour Step Challenge</string>
+    <string name="accept_challenge_1">Fantastic! &#160;</string>
+    <string name="accept_challenge_2"> &#160; you have accepted our &#160; </string>
+    <string name="empty_msg_ongoing_challenge">Please accept any challenges to enrol</string>
+    <string name="empty_msg_all_challenges">Please complete your ongoing challenges to enrol again.</string>
+    <string name="fit_permission_missing">Please enable Google Fit from My Profile for accepting your challenge.</string>
+    <string name="challenge_notification">Your 24 hour has been ended for step challenge</string>
+    <string name="alert_challenge_accept_1">Are you ready to take the &#160;"</string>
+    <string name="alert_challenge_accept_2">"? The Challenge starts when you hit Accept."</string>
+
+
+    <!-- Profile -->
+    <string name="title_profile">Profile</string>
+    <string name="profile_help">Complete your Profile and earn a Bonus 10 GoVPs</string>
+    <string name="notification">Notifications</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help &amp; Support</string>
+    <string name="about">About GoVida</string>
+    <string name="view">VIEW &amp; EDIT</string>
+    <string name="edit">EDIT</string>
+    <string name="phone">Phone</string>
+    <string name="official_email">Official Email</string>
+    <string name="personal_email">Personal Email</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="venue">Preferred Exercise Venue</string>
+    <string name="demo_phone">+44 12345 67890</string>
+    <string name="demo_profile_email">emmalyn@govida.com</string>
+    <string name="not_added">Not Added</string>
+    <string name="demo_dob">18 May 1981</string>
+    <string name="demo_gender">Female</string>
+
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_photo">Change Photo</string>
+    <string name="demo_name">Emmalyn</string>
+    <string name="first_name">First \nName</string>
+    <string name="last_name">Last \nName</string>
+    <string name="email">Official \nEmail</string>
+    <string name="per_email">Personal Email</string>
+    <string name="demo_last_name">Smith</string>
+    <string name="optional">(Optional)</string>
+    <string name="personal_info">Personal Information</string>
+    <string name="phone_profile_edit">Phone \n </string>
+    <string name="gender_profile_edit">Gender \n </string>
+    <string name="save_changes">Save Changes</string>
+    <string name="edit_message">Profile is updated successfully</string>
+    <string name="update_fail_massage">Profile Updation Failed. Please try again</string>
+    <string name="both_email_error">Please Enter valid Email Id</string>
+    <string name="official_email_error">Please Enter valid Official Email Id</string>
+    <string name="personal_email_error">Please Enter valid Personal Email Id</string>
+    <string name="preferred_venue_empty_msg">There are no preferred exercise venues</string>
+
+    <!-- rewards -->
+    <string name="title_rewards">Rewards</string>
+    <string name="redeem">REDEEM</string>
+    <string name="my_rewards">My Rewards</string>
+    <string name="all_rewards">All Rewards</string>
+    <string name="complete_your_profile">Complete your GoVida Profile now and earn 10 Bonus Points.</string>
+    <string name="checkin_card">Check-In to an Exercise Venue to earn 10 Bonus Points.</string>
+    <string name="challange_card">Enrol in your first GoVida Challenge to earn 10 Bonus Points.</string>
+    <string name="complete_587_flights">Complete 26.2 miles within 7 days</string>
+    <string name="ben_navis_mountain_challenge">Marathon Challenge</string>
+    <string name="menu_check_in">Check In</string>
+    <string name="demo_govps">30 GoVPs</string>
+    <string name="demo_reward_title">Coffee/Tea on Us</string>
+    <string name="demo_reward_info">Reedeem your GoVida points and have a meal on us</string>
+    <string name="accept_reward_1">Great News &#160;</string>
+    <string name="accept_reward_2">&#160; - Your reward &#160;</string>
+    <string name="accept_reward_3">&#160; is in process</string>
+    <string name="empty_msg_my_rewards">There are no pending or completed rewards </string>
+    <string name="empty_msg_all_rewards">There are no rewards yet. Please complete any challenges to get rewards.</string>
+    <string name="insufficient_message">Insufficient GoVPs to Redeem Reward</string>
+    <string name="redeem_alert_1">Would you like to redeem "</string>
+    <string name="redeem_alert_2">"? &#160;</string>
+    <string name="redeem_alert_3">&#160; will be debited from your GoVida wallet</string>
+    <string name="yes"></string>
+
+    <!--Checkin-->
+    <string name="checkin_title">My Ongoing Session</string>
+    <string name="checkin_second_title">Gym &amp; Juice</string>
+    <string name="initial_time">00</string>
+    <string name="final_min">30</string>
+    <string name="final_sec">00</string>
+    <string name="colon">:</string>
+    <string name="session_desc">2 Min Session</string>
+    <string name="checkout">CHECK OUT</string>
+    <string name="checkin">CHECK IN</string>
+    <string name="demo_complete_message">Your 30 mins session is completed at &#160;</string>
+    <string name="search">Search Exercise Venue</string>
+    <string name="current_location">My Location</string>
+    <string name="preferred_location">My Preferred Location</string>
+    <string name="venue_text">You have not added preferred exercise venue to start Check In session.\n\nPlease find preferred venue above to get started on your activity and earn 10 extra bonus points.</string>
+    <string name="start_session">START SESSION</string>
+    <string name="preferred_venue">My Preferred Exercise Venue</string>
+    <string name="verified_venue">My Location Exercise Venue</string>
+    <string name="demo_gym_name">JD Gyms Manchester</string>
+    <string name="demo_gym_address">Bridgewater House, Whitworth St, Manchester</string>
+    <string name="non_verified">Non Verified</string>
+    <string name="verified">GoVida Verified</string>
+    <string name="start_alert">Are you ready to start 30 minutes session at &#160;</string>
+    <string name="demo_string">string</string>
+    <string name="checkout_alert">Are you sure? Do you want to checkout the current session?</string>
+    <string name="venue_not_available_msg">There are no available venues with this name. Try again with any other phrase.</string>
+    <string name="verified_venue_not_available_msg">There are no verified venues available.</string>
+    <string name="checkout_api_failed">Something went wrong. Please try again</string>
+    <string name="non_verified_venue_alert">This is not a verified Venue. The points for your session will be credited when the venue is verified. Would you like to check-in and send a verification request?</string>
+    <string name="location_failed">There are some difficulties in getting your current location. Please try again.</string>
+    <string name="gps_turn_on">Please turn on location from mobile settings and try again</string>
+    <string name="gps_api_success">GPS bonus points API successful</string>
+    <string name="gps_api_fail">GPS bonus points API failed</string>
+    <string name="session_notification_msg">Your 2 minutes session is over</string>
+    <string name="alert_checkout">Checkout</string>
+    <string name="alert_cancel">Cancel</string>
+    <string name="alert_enable_gps">Enable GPS permission from settings page to get the list of venues</string>
+
+    <!--Settings Page-->
+    <string name="notifications">Notifications</string>
+    <string name="google_fit_access">GoogleFit Access</string>
+    <string name="turn_on">Turn On</string>
+    <string name="turn_off">Turn Off</string>
+    <string name="location_access">Location Access</string>
+    <string name="change_password">Change Password</string>
+    <string name="logout">LOGOUT</string>
+    <string name="enable_gps_to_access_fit">Please enable the GPS permission in order to access Google Fit</string>
+    <string name="empty_fields">Please fill all the fields</string>
+
+    <!--Leaderboard Page-->
+    <string name="demo_leader_name">Rey Mibourne</string>
+    <string name="demo_leader_steps">3210 Steps</string>
+    <string name="demo_leader_distance">(2.3km)</string>
+    <string name="demo_leader_postition">1</string>
+    <string name="demo_number">9</string>
+
+    <!--Help and Support-->
+    <string name="help_and_support_title">Help &amp; Support</string>
+
+    <!--About-->
+    <string name="about_title">About</string>
+    <!--Change Password-->
+    <string name="change_password_title">Change Password</string>
+    <string name="current_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="btn_change">change</string>
+    <string name="password_change_alert">Do you really want to change password?</string>
+
+    <!-- Push Notification -->
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="fcm_message">FCM Message</string>
+
+
+
+    <!-- Calender Strings -->
+    <string name="material_calendar_monday">M</string>
+    <string name="material_calendar_tuesday">T</string>
+    <string name="material_calendar_wednesday">W</string>
+    <string name="material_calendar_thursday">T</string>
+    <string name="material_calendar_friday">F</string>
+    <string name="material_calendar_saturday">S</string>
+    <string name="material_calendar_sunday">S</string>
+
+    <array name="material_calendar_months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </array>
+
+    <string name="material_calendar_today_button">Today</string>
+    <string name="material_calendar_positive_button">OK</string>
+    <string name="material_calendar_negative_button">Cancel</string>
+
+</resources>
+
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+        android:shape="rectangle"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+            android:radius="@dimen/d8dip" />
+    <gradient
+            android:angle="0"
+            android:startColor="#FFEEEC"
+            android:endColor="#F4E9F6"
+            android:type="linear"/>
+    <size
+            android:height="@dimen/d110dip"
+            android:width="@dimen/d286dip" />
+</shape>
+<!--<gradient-->
+<!--android:angle="0"-->
+<!--android:centerColor="@color/swipe_card_1"-->
+<!--android:endColor="@color/line_color"-->
+<!--android:startColor="@color/swipe_card_2"-->
+<!--android:type="linear"/>-->

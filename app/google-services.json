@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "998175787873",
+    "firebase_url": "https://govida-aap.firebaseio.com",
+    "project_id": "govida-aap",
+    "storage_bucket": "govida-aap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998175787873:android:b9e89dddacc79286",
+        "android_client_info": {
+          "package_name": "com.govida"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998175787873-t8r7pl8iiq6b4r4jqm3i5jou7tj4t17j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0fwtxLaSccz_tnv7VsYWQN1ql70zSarI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998175787873-t8r7pl8iiq6b4r4jqm3i5jou7tj4t17j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

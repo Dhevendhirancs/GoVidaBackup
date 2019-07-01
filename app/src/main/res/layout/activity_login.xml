@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorWhite"
+        tools:context=".ui_section.login_section.ActivityLogin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/login_tv_link_register"
+            android:layout_width="wrap_content"
+            style="@style/simple_button_grey"
+            android:text="@string/link_register"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="-25dip"
+            android:layout_marginTop="@dimen/d40dip"
+            android:layout_marginBottom="@dimen/d10dip"
+            android:paddingEnd="@dimen/d40dip"
+            android:paddingStart="@dimen/d20dip"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/d20dip"
+        android:layout_marginStart="@dimen/d20dip"
+        android:layout_marginEnd="@dimen/d20dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/title_login"
+            android:padding="@dimen/d10dip"
+            android:textSize="@dimen/s24sp"
+            style="@style/general_text_view_style"
+            android:lineSpacingMultiplier="1.20"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_boldcondensed"
+            android:textColor="@color/text_entry_color"/>
+
+        <EditText
+            android:id="@+id/login_et_email"
+            android:inputType="textEmailAddress"
+            style="@style/value_enter_edittext"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.20"
+            android:layout_marginTop="@dimen/d20dip"
+            android:paddingTop="@dimen/d10dip"
+            android:paddingBottom="@dimen/d20dip"
+            android:hint="@string/hint_email_id"
+
+
+        />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/login_et_password"
+                android:inputType="textWebPassword"
+                android:gravity="center"
+                style="@style/value_enter_edittext"
+                android:layout_marginTop="@dimen/d20dip"
+                android:paddingBottom="@dimen/d20dip"
+                android:paddingTop="@dimen/d10dip"
+                android:layout_centerVertical="true"
+                android:maxLength="50"
+                android:hint="@string/hint_password"
+
+
+            />
+            <ImageView
+                android:id="@+id/login_iv_show_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_eye_unselected"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="@dimen/d14dip"
+                android:paddingBottom="@dimen/d8dip"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/login_btn_login"
+            style="@style/simple_button"
+            android:layout_marginTop="@dimen/d20dip"
+            android:text="@string/btn_login"
+
+        />
+
+        <TextView
+            android:id="@+id/login_tv_link_forgot_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:maxLines="1"
+            android:minLines="1"
+            android:layout_marginTop="@dimen/d10dip"
+            android:padding="@dimen/d10dip"
+            android:gravity="center"
+            style="@style/general_text_view_style"
+            android:textSize="@dimen/s16sp"
+            android:text="@string/link_forget_password"
+            android:textColor="@color/link_color"
+        />
+    </LinearLayout>
+
+</LinearLayout>

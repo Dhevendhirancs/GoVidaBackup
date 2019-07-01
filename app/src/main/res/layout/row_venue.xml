@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    android:paddingTop="@dimen/d10dip"
+    android:paddingBottom="@dimen/d10dip"
+    android:id="@+id/ll_parent">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView
+                android:id="@+id/iv_gym_checked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/d15dip"
+                android:src="@drawable/ic_venue"
+                android:layout_marginLeft="@dimen/d10dip"
+            android:layout_marginRight="@dimen/d10dip"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="@string/demo_gym_name"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/s14sp"
+            android:id="@+id/tv_gym_name"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/demo_gym_address"
+            android:textColor="@color/text_subtext"
+            android:textSize="@dimen/s12sp"
+            android:paddingTop="@dimen/d5dip"
+            android:id="@+id/tv_gym_address"
+            android:maxLines="3"/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:paddingTop="@dimen/d5dip">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/non_verified"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/s12sp"
+                android:background="@color/text_subtext"
+                android:textAllCaps="false"
+                android:id="@+id/tv_verified"
+                android:paddingTop="@dimen/d5dip"
+                android:paddingBottom="@dimen/d5dip"
+                android:paddingRight="@dimen/d10dip"
+                android:paddingLeft="@dimen/d10dip"/>
+            <!--<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"-->
+                <!--android:src="@drawable/ic_checkin_info"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:paddingLeft="@dimen/d20dip"-->
+                <!--android:id="@+id/iv_non_verified"/>-->
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

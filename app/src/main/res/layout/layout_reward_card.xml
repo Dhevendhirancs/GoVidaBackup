@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d150dip"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/d8dip"
+        android:layout_marginStart="@dimen/d2dip"
+        android:layout_marginEnd="@dimen/d2dip"
+        android:id="@+id/ll_reward_card_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <androidx.cardview.widget.CardView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/d10dip"
+                app:cardElevation="@dimen/d2dip">
+
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/cofee_reward"
+                    android:scaleType="fitXY"
+                    android:id="@+id/iv_reward_card"/>
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:paddingLeft="@dimen/d24dip"
+                          android:paddingRight="@dimen/d14dip"
+                          android:paddingBottom="@dimen/d18dip"
+                          android:paddingTop="@dimen/d18dip"
+                          android:background="@drawable/card_rounded_corner"
+            >
+                <LinearLayout
+                        android:id="@+id/ll_parent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3">
+                    <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center">
+                        <TextView
+                                android:id="@+id/rewards_tv_reward_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Coffee/Tea on Us"
+                                android:maxLines="1"
+                                android:minLines="1"
+                                android:ellipsize="end"
+                                style="@style/general_text_view_style"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="@dimen/s22sp"
+                                android:layout_above="@+id/rewards_tv_info"/>
+                        <TextView
+                                android:id="@+id/rewards_tv_info"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Reedeem your GoVida points and have a meal on us"
+                                android:maxLines="2"
+                                android:minLines="1"
+                                android:ellipsize="end"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="@dimen/s15sp"
+                                android:layout_above="@+id/rewards_tv_points"
+                                android:paddingBottom="@dimen/d10dip"/>
+                        <TextView
+                                android:id="@+id/rewards_tv_points"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/govps_100"
+                                android:textColor="@color/colorWhite"
+                                android:textSize="@dimen/s14sp"
+                                android:layout_alignParentBottom="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6">
+                    <RelativeLayout
+                            android:id="@+id/layout_rl_progress"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:visibility="visible"
+                            android:paddingRight="@dimen/s10sp">
+                        <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentBottom="true">
+                            <TextView
+                                    android:id="@+id/rewards_status"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Delivered"
+                                    android:textColor="@color/colorWhite"
+                                    android:textSize="@dimen/s14sp"
+                                    android:drawableLeft="@drawable/ic_pending"
+                                    android:drawablePadding="@dimen/d5dip"
+                            />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <RelativeLayout
+                            android:id="@+id/layout_rl_accpet"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:visibility="gone">
+                        <Button
+                                android:id="@+id/layout_btn_accept"
+                                style="@style/simple_button_next"
+                                android:layout_height="@dimen/d40dip"
+                                android:layout_width="match_parent"
+                                android:text="@string/redeem"
+                                android:layout_alignParentBottom="true"
+                                android:textSize="@dimen/s14sp"/>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

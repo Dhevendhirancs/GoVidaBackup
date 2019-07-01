@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/checkin_background"
+              android:paddingTop="@dimen/d40dip">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ll_title">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:text="@string/menu_check_in"
+                  android:textColor="@color/colorWhite"
+                  android:gravity="center_horizontal"
+                  android:textSize="@dimen/s28sp"
+                  android:textStyle="bold"
+                  style="@style/general_text_view_style"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/d24dip"
+                        android:paddingLeft="@dimen/d5dip"
+                        android:paddingRight="@dimen/d10dip">
+            <!--<androidx.appcompat.widget.SearchView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:padding="@dimen/d10dip"-->
+                    <!--android:id="@+id/searchView">-->
+            <SearchView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/searchView"
+                    android:searchIcon="@drawable/ic_search"
+                    android:closeIcon="@drawable/ic_cancel_search"
+                    android:iconifiedByDefault="false"
+                android:focusedByDefault="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/search"
+                android:textSize="@dimen/s16sp"
+                android:textColor="@color/text_subtext"
+                android:layout_marginLeft="@dimen/d60dip"
+                android:layout_marginTop="@dimen/d13dip"
+                android:id="@+id/tv_search_hint"/>
+            <!--<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"-->
+                       <!--android:src="@drawable/ic_search"-->
+                       <!--android:paddingTop="@dimen/d15dip"-->
+                       <!--android:paddingLeft="@dimen/d20dip"/>-->
+            <!--<EditText-->
+                    <!--android:id="@+id/et_search"-->
+                    <!--android:layout_width="match_parent" android:layout_height="wrap_content"-->
+                    <!--android:hint="@string/search"-->
+                    <!--android:backgroundTint="@color/text_color_day"-->
+                    <!--android:textColor="@color/text_subtext"-->
+                    <!--android:textColorHint="@color/text_subtext"-->
+                    <!--android:paddingBottom="@dimen/d18dip"-->
+                    <!--android:paddingLeft="@dimen/d50dip"-->
+                    <!--android:textSize="@dimen/s16sp"-->
+                    <!--style="@style/general_text_view_style"-->
+            <!--android:maxLines="1"-->
+            <!--android:maxLength="50"/>-->
+        </RelativeLayout>
+
+        <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                   android:src="@drawable/venue_search_line"
+            android:layout_marginLeft="@dimen/d12dip"
+            android:layout_marginRight="@dimen/d12dip"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="@dimen/d54dip"
+                      android:orientation="horizontal"
+                      android:weightSum="10"
+                      android:layout_marginLeft="@dimen/d12dip"
+                      android:layout_marginRight="@dimen/d12dip"
+                      android:background="@color/text_entry_color"
+                    android:id="@+id/ll_location"
+                    android:paddingLeft="@dimen/d8dip">
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+                       android:src="@drawable/ic_current_location"
+                       android:layout_weight="9"
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/iv_location"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="@string/current_location"
+                      android:textColor="@color/text_subtext"
+                      android:textSize="@dimen/s14sp"
+                      android:layout_weight="1"
+                      style="@style/general_text_view_style"
+                      android:layout_gravity="center_vertical"
+                android:id="@+id/tv_venue_title"
+                android:paddingLeft="@dimen/d10dip"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_title"
+        android:id="@+id/ll_list"
+        android:layout_above="@+id/ll_button"
+        android:paddingTop="@dimen/d5dip">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:text="@string/venue_text"
+                  android:textColor="@color/text_color_day"
+                  android:textSize="@dimen/s15sp"
+                  style="@style/general_text_view_style"
+                  android:padding="@dimen/d30dip"
+                android:visibility="gone"
+            android:id="@+id/tv_empty_list_msg"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:text="@string/preferred_venue"
+                      android:textColor="@color/colorWhite"
+                      android:textSize="@dimen/s14sp"
+                      android:textStyle="bold"
+                      android:paddingTop="@dimen/d10dip"
+                      android:paddingLeft="@dimen/d10dip"
+                      android:id="@+id/tv_title"
+                      style="@style/general_text_view_style"/>
+            <androidx.recyclerview.widget.RecyclerView android:layout_width="match_parent"
+                                                       android:layout_height="match_parent"
+                                                       android:padding="@dimen/d10dip"
+                                                       android:id="@+id/rv_venue_list"
+                                                       android:scrollbars="vertical"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:id="@+id/ll_button"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+        <Button android:layout_width="wrap_content" android:layout_height="@dimen/d40dip"
+                style="@style/simple_button"
+                android:text="@string/start_session"
+                android:textSize="@dimen/s12sp"
+                android:id="@+id/btn_start_session"
+                android:visibility="gone"/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_close"
+                android:layout_centerInParent="true"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/session_back_button"
+                app:fabSize="normal"
+            android:layout_margin="@dimen/d12dip"/>
+    </LinearLayout>
+
+</RelativeLayout>

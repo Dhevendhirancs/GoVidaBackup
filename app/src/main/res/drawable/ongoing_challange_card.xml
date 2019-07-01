@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+        android:shape="rectangle"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+            android:radius="@dimen/d8dip" />
+    <gradient
+            android:angle="90"
+            android:endColor="@color/ongoing_challange_card"
+            android:startColor="@color/ongoing_challange_card1"
+            android:type="linear" />
+    <size
+            android:height="@dimen/d150dip"
+            android:width="@dimen/d296dip" />
+</shape>

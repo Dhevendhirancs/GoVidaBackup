@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context=".ui_section.home_section.challenges_section.FragmentChallenges"
+    android:paddingBottom="@dimen/d5dip">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/challenge_swipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/d60dip"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginStart="@dimen/d12dip"
+                    android:layout_marginEnd="@dimen/d12dip"
+            >
+                <Button
+                        android:id="@+id/challenges_btn_mine"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/my_challenges"
+                        android:checked="true"
+                        android:textSize="@dimen/s18sp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorWhite"
+                        android:background="@drawable/home_page_left_button_color_change"
+                        android:layout_weight="25"
+                        android:fontFamily="@font/roboto_regular"/>
+                <Button
+                        android:id="@+id/challenges_btn_availble"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/all_challenges"
+                        android:checked="true"
+                        android:textSize="@dimen/s18sp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/default_text_color"
+                        android:background="@drawable/home_page_right_button"
+                        android:layout_weight="25"
+                        android:layout_marginLeft="@dimen/d2dip"
+                        android:fontFamily="@font/roboto_regular"/>
+            </LinearLayout>
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/d12dip"
+                    android:paddingRight="@dimen/d12dip"
+                    android:paddingBottom="@dimen/d5dip">
+                <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/challenges_rv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:scrollbars="vertical" />
+                <TextView
+                        android:id="@+id/challenges_tv_no_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        style="@style/general_text_view_style"
+                        android:textSize="@dimen/s18sp"
+                        android:gravity="center"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/default_text_color"
+                        android:text="Please accept any challenges to enroll" />
+            </RelativeLayout>
+     </LinearLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
+</LinearLayout>
