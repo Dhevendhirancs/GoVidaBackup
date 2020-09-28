@@ -1,12 +1,12 @@
 Project Name : GoVida 
 
-Project Platform : Android, iOS, Web
+Project Platform : Android
 
 Project Platform Code in this Repo : Android
 
 Project Language : Kotlin
 
-Project Author : 1276
+Project Author : Dhevendhiran M
 
 Project Conception  : 17 April 2017
 
